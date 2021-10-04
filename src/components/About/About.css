@@ -1,0 +1,15 @@
+.container h1{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.about-container{
+  display: flex;  
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.about-info{
+    margin-right: 20px;
+}
