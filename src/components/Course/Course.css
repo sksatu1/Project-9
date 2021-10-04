@@ -2,3 +2,7 @@
     border: 2px solid rebeccapurple;
     margin: 10px;
 }
+
+.course-info span{
+    margin: 0 5px;
+}

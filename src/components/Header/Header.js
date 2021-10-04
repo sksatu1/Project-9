@@ -22,7 +22,16 @@ const Header = () => {
                 <NavLink className='nav-style' activeStyle={activeStyle} to='/contact'>Contact us</NavLink>
             </nav>
 
-            <h1 className="course-heading container">Total Courses : 8</h1>
+            {/*  <div className="course-heading">
+                <div className="heading-details">
+                    <div className="heading-img"><img src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg" alt="" /></div>
+                    <h1>Welcome To Our Courses
+                        <br />
+                        <br />
+                        <small style={{ color: "blueviolet" }}> Click to services to find more courses</small>
+                    </h1>
+                </div>
+            </div> */}
 
         </div>
 

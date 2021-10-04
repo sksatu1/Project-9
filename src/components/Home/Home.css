@@ -1,0 +1,30 @@
+.course-heading{
+    color: blue;
+    margin: 10px 20px;
+    background-color: rgba(44, 43, 43, 0.315);
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+}
+
+.heading-details{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around;  */
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    padding: 20px;
+}
+
+.heading-img{
+    width: 700px;
+    margin-right: 100px;
+}
+
+.heading-img img{
+height: 300px;
+width: 100%;
+}
+
+.home-course-container{
+    margin: 10px 20px;
+}

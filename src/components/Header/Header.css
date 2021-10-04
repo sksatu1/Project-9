@@ -15,11 +15,3 @@ background-color:rgba(44, 43, 43, 0.315) ;
     margin: 0 10px;
     font-size: large;
 }
-
-.course-heading{
-    color: blue;
-    margin: 10px 20px;
-    background-color: rgba(44, 43, 43, 0.315);
-    border: 1px solid lightslategray;
-    border-radius: 10px;
-}
