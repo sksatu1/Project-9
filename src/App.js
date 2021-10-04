@@ -8,6 +8,8 @@ import ContactUs from './components/ContactUs/ContactUs';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer/Footer';
+import LogInForm from './components/LogInForm/LogInForm';
 
 function App() {
   const [courses] = useCourses();
@@ -34,8 +36,8 @@ function App() {
             <Services></Services>
           </Route>
 
-          <Route path="/contact">
-            <ContactUs></ContactUs>
+          <Route path="/login">
+            <LogInForm></LogInForm>
           </Route>
 
           <Route path="*">
@@ -43,6 +45,7 @@ function App() {
           </Route>
 
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

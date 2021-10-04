@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock, faPlayCircle } from '@fortawesome/free-solid-svg-icons'
+import { faClock, faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 import './Course.css'
 
 const Course = (props) => {
@@ -30,7 +30,8 @@ const Course = (props) => {
 
                     </div>
 
-                    <Button variant="primary">Enroll</Button>
+                    <Button variant="primary">Details</Button>{' '}
+                    <Button variant="secondary">Enroll</Button>
                 </Card.Body>
             </Card>
         </Col>

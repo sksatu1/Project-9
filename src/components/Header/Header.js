@@ -19,19 +19,8 @@ const Header = () => {
                 <NavLink className='nav-style' activeStyle={activeStyle} to='/home'>Home</NavLink>
                 <NavLink className='nav-style' activeStyle={activeStyle} to='/about'>About</NavLink>
                 <NavLink className='nav-style' activeStyle={activeStyle} to='/services'>Services</NavLink>
-                <NavLink className='nav-style' activeStyle={activeStyle} to='/contact'>Contact us</NavLink>
+                <NavLink className='nav-style' activeStyle={activeStyle} to='/login'>Sign in</NavLink>
             </nav>
-
-            {/*  <div className="course-heading">
-                <div className="heading-details">
-                    <div className="heading-img"><img src="https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg" alt="" /></div>
-                    <h1>Welcome To Our Courses
-                        <br />
-                        <br />
-                        <small style={{ color: "blueviolet" }}> Click to services to find more courses</small>
-                    </h1>
-                </div>
-            </div> */}
 
         </div>
 
