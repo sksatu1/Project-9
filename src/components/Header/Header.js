@@ -22,6 +22,8 @@ const Header = () => {
                 <NavLink className='nav-style' activeStyle={activeStyle} to='/contact'>Contact us</NavLink>
             </nav>
 
+            <h1 className="course-heading">Total Courses : 8</h1>
+
         </div>
 
     );

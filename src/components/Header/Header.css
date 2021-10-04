@@ -5,8 +5,8 @@ background-color: rgba(44, 43, 43, 0.315);
 .title{
 font-weight: 700;
 margin-bottom: 0;
-color: blanchedalmond;
-background-color:rgb(139 130 130) ;
+color: #0f13a7;
+background-color:rgba(44, 43, 43, 0.315) ;
 }
 
 .nav-style{
@@ -14,4 +14,12 @@ background-color:rgb(139 130 130) ;
     color:blue;
     margin: 0 10px;
     font-size: large;
+}
+
+.course-heading{
+    color: blue;
+    margin: 10px 20px;
+    background-color: rgba(44, 43, 43, 0.315);
+    border: 1px solid lightslategray;
+    border-radius: 10px;
 }
