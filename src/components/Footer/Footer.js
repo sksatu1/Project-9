@@ -7,6 +7,8 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <div className="footer-container">
+
+            {/*------------------------------------- footer top section --------------------------------------- */}
             <div className="top-footer-container">
                 <div className="contact-container">
                     <h1>Contact us</h1>
@@ -32,6 +34,9 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
+            
+
+            {/*----------------------------------------- footer bottom section------------------------------  */}
             <p style={{ marginTop: "30px" }}>© 2021 Eduonix Learning Solutions Pvt Ltd. All Rights Reserved.</p>
             <br />
         </div>
