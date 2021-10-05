@@ -1,4 +1,15 @@
 .footer-container{
     background-color: rgba(44, 43, 43, 0.315);
     color: black;
+    padding: 10px;
+}
+
+.top-footer-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+}
+
+.contact-container{
+    text-align: left;
 }
